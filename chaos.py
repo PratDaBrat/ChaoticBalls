@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import turtle
 from numpy import *
 import random
@@ -11,7 +12,7 @@ g = -0.1
 r = 200
 balls = []
 colors = ["orange","blue","green","pink","white"]
-start = [[0.001,0],[0.0014,0]]
+start = [[0.0002,0],[0.0001,0]]
 
 circle = turtle.Turtle()
 circle.color("green")
